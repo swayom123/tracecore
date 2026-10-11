@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+*.py[cod]
+*.db
+.env
+node_modules/
+dist/
+*.tsbuildinfo
+graphify-out/
+

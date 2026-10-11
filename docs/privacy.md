@@ -1,0 +1,3 @@
+# Privacy controls
+
+Current controls and their limitations are documented in [Security and privacy](security-privacy.md). TraceCore defaults to redacted logging, supports metadata-only capture, configurable regular-expression redaction, bearer-scoped content access, sensitive-content audit events, and scoped retention deletion. Retention is runnable through a CLI command intended for an operator-managed scheduler; TraceCore does not run its own scheduler. These controls do not guarantee complete secret or personal-data detection. Object storage, backup scrubbing, and legal-hold workflows are not implemented.
